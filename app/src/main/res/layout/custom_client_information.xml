@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:visibility="gone"
+    android:id="@+id/allLayout"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:background="@color/colorBackgroundInfo">
+
+    <RelativeLayout
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:id="@+id/layout"
+        android:background="@drawable/circle_white">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile_icon"
+            android:id="@+id/imgClient"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPhone"
+            android:textColor="#DDD"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+</LinearLayout>

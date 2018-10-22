@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TaxiPizzaStaff</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_direction_api">AIzaSyBMuYjDpuGt8qQIwJ0HpJ5FqdeWA2KdI3U</string>
+</resources>
