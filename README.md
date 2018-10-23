@@ -2,8 +2,8 @@
 <img alt="Logo" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="80">
 
 <div>
-<img alt="App image" src="screenshots/Screenshot_1522862299.png" width="40%">
-<img alt="App image" src="screenshots/Screenshot_1522862407.png" width="40%">
+<img alt="App image" src="screenshots/Screenshot_1522862299.png" width="49%">
+<img alt="App image" src="screenshots/Screenshot_1522862407.png" width="49%">
 </div>
 
 ## License
